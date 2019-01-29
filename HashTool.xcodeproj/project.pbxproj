@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029CCEC021FFF55200112201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CCEBF21FFF55200112201 /* AppDelegate.m */; };
+		029CCEC321FFF55200112201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CCEC221FFF55200112201 /* ViewController.m */; };
+		029CCEC621FFF55200112201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CCEC421FFF55200112201 /* Main.storyboard */; };
+		029CCEC821FFF55300112201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029CCEC721FFF55300112201 /* Assets.xcassets */; };
+		029CCECB21FFF55300112201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029CCEC921FFF55300112201 /* LaunchScreen.storyboard */; };
+		029CCECE21FFF55300112201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CCECD21FFF55300112201 /* main.m */; };
+		029CCED821FFF55300112201 /* HashToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CCED721FFF55300112201 /* HashToolTests.m */; };
+		029CCEE321FFF55300112201 /* HashToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 029CCEE221FFF55300112201 /* HashToolUITests.m */; };
+		029CCEF121FFF57000112201 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 029CCEF021FFF57000112201 /* Classes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029CCED421FFF55300112201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029CCEB321FFF55200112201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029CCEBA21FFF55200112201;
+			remoteInfo = HashTool;
+		};
+		029CCEDF21FFF55300112201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029CCEB321FFF55200112201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029CCEBA21FFF55200112201;
+			remoteInfo = HashTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029CCEBB21FFF55200112201 /* HashTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		029CCEBE21FFF55200112201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		029CCEBF21FFF55200112201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		029CCEC121FFF55200112201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		029CCEC221FFF55200112201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		029CCEC521FFF55200112201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029CCEC721FFF55300112201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029CCECA21FFF55300112201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		029CCECC21FFF55300112201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029CCECD21FFF55300112201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		029CCED321FFF55300112201 /* HashToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		029CCED721FFF55300112201 /* HashToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashToolTests.m; sourceTree = "<group>"; };
+		029CCED921FFF55300112201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029CCEDE21FFF55300112201 /* HashToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		029CCEE221FFF55300112201 /* HashToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashToolUITests.m; sourceTree = "<group>"; };
+		029CCEE421FFF55300112201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029CCEF021FFF57000112201 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		029CCEB821FFF55200112201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029CCED021FFF55300112201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029CCEDB21FFF55300112201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029CCEB221FFF55200112201 = {
+			isa = PBXGroup;
+			children = (
+				029CCEBD21FFF55200112201 /* HashTool */,
+				029CCED621FFF55300112201 /* HashToolTests */,
+				029CCEE121FFF55300112201 /* HashToolUITests */,
+				029CCEBC21FFF55200112201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		029CCEBC21FFF55200112201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				029CCEBB21FFF55200112201 /* HashTool.app */,
+				029CCED321FFF55300112201 /* HashToolTests.xctest */,
+				029CCEDE21FFF55300112201 /* HashToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		029CCEBD21FFF55200112201 /* HashTool */ = {
+			isa = PBXGroup;
+			children = (
+				029CCEF021FFF57000112201 /* Classes */,
+				029CCEBE21FFF55200112201 /* AppDelegate.h */,
+				029CCEBF21FFF55200112201 /* AppDelegate.m */,
+				029CCEC121FFF55200112201 /* ViewController.h */,
+				029CCEC221FFF55200112201 /* ViewController.m */,
+				029CCEC421FFF55200112201 /* Main.storyboard */,
+				029CCEC721FFF55300112201 /* Assets.xcassets */,
+				029CCEC921FFF55300112201 /* LaunchScreen.storyboard */,
+				029CCECC21FFF55300112201 /* Info.plist */,
+				029CCECD21FFF55300112201 /* main.m */,
+			);
+			path = HashTool;
+			sourceTree = "<group>";
+		};
+		029CCED621FFF55300112201 /* HashToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				029CCED721FFF55300112201 /* HashToolTests.m */,
+				029CCED921FFF55300112201 /* Info.plist */,
+			);
+			path = HashToolTests;
+			sourceTree = "<group>";
+		};
+		029CCEE121FFF55300112201 /* HashToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				029CCEE221FFF55300112201 /* HashToolUITests.m */,
+				029CCEE421FFF55300112201 /* Info.plist */,
+			);
+			path = HashToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		029CCEBA21FFF55200112201 /* HashTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029CCEE721FFF55300112201 /* Build configuration list for PBXNativeTarget "HashTool" */;
+			buildPhases = (
+				029CCEB721FFF55200112201 /* Sources */,
+				029CCEB821FFF55200112201 /* Frameworks */,
+				029CCEB921FFF55200112201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashTool;
+			productName = HashTool;
+			productReference = 029CCEBB21FFF55200112201 /* HashTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		029CCED221FFF55300112201 /* HashToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029CCEEA21FFF55300112201 /* Build configuration list for PBXNativeTarget "HashToolTests" */;
+			buildPhases = (
+				029CCECF21FFF55300112201 /* Sources */,
+				029CCED021FFF55300112201 /* Frameworks */,
+				029CCED121FFF55300112201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029CCED521FFF55300112201 /* PBXTargetDependency */,
+			);
+			name = HashToolTests;
+			productName = HashToolTests;
+			productReference = 029CCED321FFF55300112201 /* HashToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		029CCEDD21FFF55300112201 /* HashToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029CCEED21FFF55300112201 /* Build configuration list for PBXNativeTarget "HashToolUITests" */;
+			buildPhases = (
+				029CCEDA21FFF55300112201 /* Sources */,
+				029CCEDB21FFF55300112201 /* Frameworks */,
+				029CCEDC21FFF55300112201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				029CCEE021FFF55300112201 /* PBXTargetDependency */,
+			);
+			name = HashToolUITests;
+			productName = HashToolUITests;
+			productReference = 029CCEDE21FFF55300112201 /* HashToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		029CCEB321FFF55200112201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Aibo;
+				TargetAttributes = {
+					029CCEBA21FFF55200112201 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					029CCED221FFF55300112201 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 029CCEBA21FFF55200112201;
+					};
+					029CCEDD21FFF55300112201 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 029CCEBA21FFF55200112201;
+					};
+				};
+			};
+			buildConfigurationList = 029CCEB621FFF55200112201 /* Build configuration list for PBXProject "HashTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 029CCEB221FFF55200112201;
+			productRefGroup = 029CCEBC21FFF55200112201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				029CCEBA21FFF55200112201 /* HashTool */,
+				029CCED221FFF55300112201 /* HashToolTests */,
+				029CCEDD21FFF55300112201 /* HashToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		029CCEB921FFF55200112201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029CCECB21FFF55300112201 /* LaunchScreen.storyboard in Resources */,
+				029CCEF121FFF57000112201 /* Classes in Resources */,
+				029CCEC821FFF55300112201 /* Assets.xcassets in Resources */,
+				029CCEC621FFF55200112201 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029CCED121FFF55300112201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029CCEDC21FFF55300112201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029CCEB721FFF55200112201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029CCEC321FFF55200112201 /* ViewController.m in Sources */,
+				029CCECE21FFF55300112201 /* main.m in Sources */,
+				029CCEC021FFF55200112201 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029CCECF21FFF55300112201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029CCED821FFF55300112201 /* HashToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029CCEDA21FFF55300112201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029CCEE321FFF55300112201 /* HashToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029CCED521FFF55300112201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029CCEBA21FFF55200112201 /* HashTool */;
+			targetProxy = 029CCED421FFF55300112201 /* PBXContainerItemProxy */;
+		};
+		029CCEE021FFF55300112201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029CCEBA21FFF55200112201 /* HashTool */;
+			targetProxy = 029CCEDF21FFF55300112201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		029CCEC421FFF55200112201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029CCEC521FFF55200112201 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		029CCEC921FFF55300112201 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				029CCECA21FFF55300112201 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		029CCEE521FFF55300112201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		029CCEE621FFF55300112201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		029CCEE821FFF55300112201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = HashTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.HashTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		029CCEE921FFF55300112201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = HashTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.HashTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		029CCEEB21FFF55300112201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = HashToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.HashToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashTool.app/HashTool";
+			};
+			name = Debug;
+		};
+		029CCEEC21FFF55300112201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = HashToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.HashToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashTool.app/HashTool";
+			};
+			name = Release;
+		};
+		029CCEEE21FFF55300112201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = HashToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.HashToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HashTool;
+			};
+			name = Debug;
+		};
+		029CCEEF21FFF55300112201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = HashToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.HashToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HashTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		029CCEB621FFF55200112201 /* Build configuration list for PBXProject "HashTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029CCEE521FFF55300112201 /* Debug */,
+				029CCEE621FFF55300112201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029CCEE721FFF55300112201 /* Build configuration list for PBXNativeTarget "HashTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029CCEE821FFF55300112201 /* Debug */,
+				029CCEE921FFF55300112201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029CCEEA21FFF55300112201 /* Build configuration list for PBXNativeTarget "HashToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029CCEEB21FFF55300112201 /* Debug */,
+				029CCEEC21FFF55300112201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029CCEED21FFF55300112201 /* Build configuration list for PBXNativeTarget "HashToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029CCEEE21FFF55300112201 /* Debug */,
+				029CCEEF21FFF55300112201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 029CCEB321FFF55200112201 /* Project object */;
+}
