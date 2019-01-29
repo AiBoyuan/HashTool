@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.authors      = {'Aiboyuan' => 'yuannb2008@126.com'}
   s.summary      = 'The extension method for NSString Hash'
   s.source       = {:git => 'https://github.com/AiBoyuan/HashTool.git', :tag => s.version} 
-  s.source_files = 'HashTool/Classes/**/*.{h，m}'
+  s.source_files = 'Classes/*'
   s.requires_arc = true
 
 end
