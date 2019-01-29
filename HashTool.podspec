@@ -9,14 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name         = 'HashTool'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.ios.deployment_target = '7.0'
   s.license      = 'MIT'
   s.homepage     = 'https://github.com/AiBoyuan/HashTool'
   s.authors      = {'Aiboyuan' => 'yuannb2008@126.com'}
   s.summary      = 'The extension method for NSString Hash'
   s.source       = {:git => 'https://github.com/AiBoyuan/HashTool.git', :tag => s.version} 
-  s.source_files = 'HashTool'
+  s.source_files = 'HashTool/Classes/**/*.{h，m}'
   s.requires_arc = true
 
 end
